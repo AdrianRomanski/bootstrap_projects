@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My First Bootstrap App</title>
+    <link rel="stylesheet" type="text/css" href="../resources/css/bootstrap.css">
+    <link href="../resources/css/styles.css" rel="stylesheet">
+
+<!--    &lt;!&ndash;[if lt IE 9]>-->
+<!--    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>-->
+<!--    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>-->
+<!--    <![endif]&ndash;&gt;-->
+
+</head>
+<body>
+<div class="container">
+    <form class="form">
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="You First Name">
+        </div>
+    </form>
+    <form class="form">
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="You Last Name">
+        </div>
+    </form>
+    <form class="form">
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email" placeholder="You Email">
+        </div>
+    </form>
+    <form class="form">
+        <div class="form-group">
+            <label for="description">Description</label>
+            <input type="text" class="form-control" id="description" placeholder="Tell something about yourself">
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button> <button type="reset" class="btn btn-default">Clear</button>
+    </form>
+
+    <h1 align="center">Horizontal</h1>
+
+
+    <form class="form-horizontal">
+
+        <div class="form-group">
+            <label for="firstNameHorizontal" class="col-xs-2">First Name</label>
+            <div class="col-xs-10">
+                <input type="text" class="form-control" id="firstNameHorizontal" placeholder="Your First name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="lastNameHorizontal" class="col-xs-2">Last Name</label>
+            <div class="col-xs-10">
+                <input type="text" class="form-control" id="lastNameHorizontal" placeholder="Your Last name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="emailHorizontal" class="col-xs-2">Email</label>
+            <div class="col-xs-10">
+                <input type="text" class="form-control" id="emailHorizontal" placeholder="Your Email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="descriptionHorizontal" class="col-xs-2">Description</label>
+            <div class="col-xs-10">
+                <input type="text" class="form-control" id="descriptionHorizontal" placeholder="Description">
+            </div>
+        </div>
+
+        <div class="col-xs-10 col-xs-offset-6">
+
+            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="reset" class="btn btn-default">Clear</button>
+        </div>
+    </form>
+
+    <h1 align="center">One Liner</h1>
+
+    <div class="well well-sm">
+        <form class="form-inline">
+            <div class="form-group">
+                <input type="email" class="form-control" id="emailField" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="password" placeholder="password">
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" value="Male">
+                    Male
+                </label>
+                <label>
+                    <input type="radio" value="Female">
+                    Female
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Registration</button>
+        </form>
+    </div>
+
+    <h1 align="center">Sizes</h1>
+
+    <form class="form">
+        <div class="form-group">
+            <label for="firstNameSize">First Name</label>
+            <input type="text" class="form-control" id="firstNameSize" placeholder="Regular">
+        </div>
+    </form>
+    <form class="form">
+        <div class="form-group">
+            <label for="lastNameSize">Last Name</label>
+            <input type="text" class="form-control input-sm" id="lastNameSize" placeholder="Small">
+        </div>
+    </form>
+    <form class="form">
+        <div class="form-group">
+            <label for="emailSize">Email</label>
+            <input type="text" class="form-control input-lg" id="emailSize" placeholder="Large">
+        </div>
+    </form>
+</div>
+
+
+
+<script src="../resources/js/jquery.js"></script>
+<script src="../resources/js/bootstrap.js"></script>
+</body>
+</html>
