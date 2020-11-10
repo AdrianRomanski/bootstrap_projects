@@ -17,7 +17,6 @@ $(window).scroll(function () {
 
 
 //mission section
-
 $(window).scroll(function () {
     let position = $(this).scrollTop();
     if(position >= 750) {
